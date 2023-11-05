@@ -82,8 +82,8 @@ endif ()
 # gcc configuration
 # =========================================
 if (BEA_COMPILER STREQUAL gnu)
-  set (CMAKE_C_COMPILER   gcc)
-  set (CMAKE_CXX_COMPILER g++)
+#  set (CMAKE_C_COMPILER   gcc)
+#  set (CMAKE_CXX_COMPILER g++)
   set (BEA_WARNINGS -Wall -W -Wextra -Wconversion -Wno-long-long
     -Wshadow  -Wpointer-arith -Wcast-qual  -Wcast-align -Wwrite-strings)
   set (BEA_FLAGS    -pedantic -ansi -pipe -fno-common -fshort-enums )
